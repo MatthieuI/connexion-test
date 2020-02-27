@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost
--- Généré le : mer. 26 fév. 2020 à 23:14
--- Version du serveur :  10.4.11-MariaDB
--- Version de PHP : 7.4.2
+-- Généré le :  jeu. 27 fév. 2020 à 13:16
+-- Version du serveur :  10.4.10-MariaDB
+-- Version de PHP :  7.1.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `test2`
+-- Base de données :  `test2`
 --
 
 -- --------------------------------------------------------
@@ -42,7 +42,7 @@ CREATE TABLE `utilisateurs` (
 --
 
 INSERT INTO `utilisateurs` (`id`, `nom`, `prenom`, `pseudo`, `mail`, `passe`) VALUES
-(8, 'Dupond', 'Jean', 'Azerty', 'azerty@azerty.com', 'aaa2-');
+(9, 'Idjellidaine', 'Matthieu', 'Civière', 'matthieuidjellidaine@gmail.com', '$2y$10$IkIrgMO1mpkvwxmLiiJMgORbq7Ge59WHvrKX.Xm.0kWNl38F91Kly');
 
 --
 -- Index pour les tables déchargées
@@ -62,7 +62,7 @@ ALTER TABLE `utilisateurs`
 -- AUTO_INCREMENT pour la table `utilisateurs`
 --
 ALTER TABLE `utilisateurs`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
